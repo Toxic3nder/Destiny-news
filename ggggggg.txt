@@ -1,0 +1,4 @@
+import urllib
+
+fun open():
+    return urllib.urlopen('https://www.bungie.net/en/Explore/Detail/News/')
